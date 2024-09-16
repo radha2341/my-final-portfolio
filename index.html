@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radha Chalasani Portfolio</title>
+    <meta name="description" content="Radha Chalasani's Portfolio showcasing experience in Data Science, Analytics, and Software Development.">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Radha Chalasani</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Radha Chalasani</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Radha Chalasani profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Radha Chalasani</h1>
+        <p class="section__text__p2">Aspiring Data Scientist and Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/radha-chalasani-resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/radha-chalasani/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/radha2341'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 Year IAM and PAM Experience <br />Aspiring Data Scientist and Data Analyst</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>M.S in CIS - Data Science, Gannon University<br />B.E in Info. Sci & Engg, JSSATE</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a dedicated Data Science graduate student with a strong background in data analytics, engineering, and security. I have experience in developing data-driven solutions and delivering actionable insights across various domains including cybersecurity, healthcare, and education. Actively seeking a full-time position starting December 2024.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Professional Experience</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Security Deliver Associate</h3>
+                  <p>Accenture | Feb 2022 - Oct 2022</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analytics Intern</h3>
+                  <p>The Sparks Foundation | Jan 2021 - Feb 2021</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Student Conference Assistant</h3>
+                  <p>Gannon University | May 2023 - Aug 2023</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>STEM Pass Tutor</h3>
+                  <p>Gannon University | Aug 2023 - Oct 2023</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects and Research</h1>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="./assets/project-1.png" alt="Liver Cirrhosis Prediction" />
+          <h3 class="project-title">Liver Cirrhosis Prediction</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-2.png" alt="Stock Market Prediction Using LSTM" />
+          <h3 class="project-title">Stock Market Prediction Using LSTM</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-3.png" alt="Autoimmune Disease Prediction" />
+          <h3 class="project-title">Autoimmune Disease Prediction</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-4.png" alt="Emotion Based Behavior Prediction" />
+          <h3 class="project-title">Emotion Based Behavior Prediction</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-5.png" alt="Patient and Medication Analysis" />
+          <h3 class="project-title">Patient and Medication Analysis</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-6.png" alt="Inventory Management System" />
+          <h3 class="project-title">Inventory Management System</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-7.png" alt="Hotel Management System" />
+          <h3 class="project-title">Hotel Management System</h3>
+        </div>
+        <div class="project-card">
+          <img src="./assets/project-8.png" alt="Sports Club Management System" />
+          <h3 class="project-title">Sports Club Management System</h3>
+        </div>
+      </div>
+    </section>
+    <section id="certifications">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Certifications</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python (Basic)</h3>
+                  <p>HackerRank</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python Core</h3>
+                  <p>Sololearn</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Sololearn</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Oracle Certified Professional, Java SE 8 Programmer I</h3>
+                  <p>Oracle</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android App Development</h3>
+                  <p>Internshala</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Problem Solving (Basic)</h3>
+                  <p>HackerRank</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>REST API (Intermediate)</h3>
+                  <p>HackerRank</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Certification icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React (Basic)</h3>
+                  <p>HackerRank</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto: radhacha001@gannon.edu">radhacha001@gannon.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/radha-chalasani/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Radha Chalasani. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
